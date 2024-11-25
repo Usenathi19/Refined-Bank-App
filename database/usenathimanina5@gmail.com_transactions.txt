@@ -1,0 +1,11 @@
+2024-11-22 11:48:08,Deposit,1000.0,Deposit to main account,1000.0
+2024-11-22 11:48:24,Withdrawal,100.0,Withdrawal from main account,900.0
+2024-11-22 13:05:32,Withdrawal,2.0,Withdrawal from main account,805.5
+2024-11-22 14:42:36,Deposit,1.0,Deposit to main account,806.5
+2024-11-22 15:02:35,Deposit,0.01,Deposit to main account,806.51
+2024-11-22 15:23:12,Deposit,50.0,Deposit to main account,856.51
+2024-11-22 15:23:29,Withdrawal,50.0,Withdrawal from main account,806.51
+2024-11-22 15:46:04,Deposit,29.0,Deposit to main account,835.51
+2024-11-22 15:46:36,Withdrawal,20.0,Withdrawal from main account,815.51
+2024-11-22 15:55:48,Deposit,100.0,Deposit to main account,915.51
+2024-11-25 08:34:26,Account Creation,444.0,Created account 'ed',471.51

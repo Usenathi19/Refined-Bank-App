@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* General Body Styling */
+        body {
+            background: url('/static/images/bg.jpg') no-repeat center center fixed;
+            background-size: cover; /* Ensure the background image covers the entire screen */
+            font-family: 'Arial', sans-serif;
+            color: #fff; /* Use white text for a clean contrast */
+            font-weight: bold;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Ensures the content is centered vertically */
+            align-items: center; /* Centers content horizontally */
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background: rgba(0, 0, 0, 0.7); /* Transparent black */
+            padding: 10px 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10;
+        }
+
+        .navbar-brand {
+            color: #fff; /* Set navbar text color to white */
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+
+        .navbar-brand:hover {
+            color: #f8f8f8; /* Light white hover */
+        }
+
+        /* Main Container Styling */
+        .main-container {
+            background: rgba(0, 0, 0, 0.6); /* Transparent black */
+            padding: 30px;
+            border-radius: 15px;
+            width: 80%;
+            max-width: 500px;
+            display: flex;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            z-index: 5;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h3 {
+            color: #fff; /* Set h3 text color to white */
+            font-weight: bold;
+        }
+
+        /* Form Elements */
+        .form-label {
+            font-weight: bold;
+            color: #fff; /* Set form label color to white */
+        }
+
+        .form-control {
+            border: 1px solid #6c757d; /* Set input border color to grey */
+            background: rgba(255, 255, 255, 0.2); /* Slightly transparent white */
+            color: #fff; /* Set input text color to white */
+        }
+
+        .form-control:focus {
+            background: rgba(255, 255, 255, 0.3);
+            color: #000;
+            border-color: #6c757d; /* Set border color to grey when focused */
+        }
+
+        .btn-primary {
+            background-color: #6c757d; /* Use grey for the primary button */
+            border: none;
+            font-weight: bold;
+            width: 100%;
+            border-radius: 50px;
+        }
+
+        .btn-primary:hover {
+            background-color: #495057; /* Darker grey on hover */
+        }
+
+        .btn-link {
+            color: #fff; /* Set link text color to white */
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .btn-link:hover {
+            color: #f8f8f8; /* Light white hover */
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            font-weight: bold;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: #f8f8f8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">MiWay Bank</a>
+    </nav>
+
+    <!-- Main Container for Form -->
+    <div class="main-container">
+        <h3>Login to Your Account</h3>
+        <form method="POST">
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" id="username" name="username" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" name="password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+            <a href="/register" class="btn-link">Open an Account</a> <!-- Register link below Login -->
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 MiWay. All Rights Reserved. <br> <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

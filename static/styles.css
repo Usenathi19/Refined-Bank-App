@@ -1,0 +1,95 @@
+
+
+/*Login Page */
+
+/* Scope styles to login-page class */
+.login-page {
+    background: url('./images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.login-page .card {
+    border: none;
+    margin: 0 auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+body.login-page .card-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #FF5733;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+
+.login-page .card-body {
+    padding: 2rem;
+}
+
+.login-page .form-label {
+    font-weight: 500;
+    color: #555;
+}
+
+.login-page .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.login-page .btn {
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.login-page .btn-primary {
+    background-color: #FF5733;
+    border-color: #F89880;
+}
+
+.login-page .btn-primary:hover {
+    background-color: #F89880;
+    border-color: #F89880;
+}
+
+.login-page .card-footer {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.login-page .card-footer a {
+    color: #FF5733;
+    transition: color 0.3s ease;
+}
+
+.login-page .card-footer a:hover {
+    color: #4f3525;
+}
+
+.login-page .alert {
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.login-page .container mt-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px; /* Restrict max width */
+    height: auto; /* Ensure it adjusts to content */
+    margin-top: 400px;
+}
+
+
